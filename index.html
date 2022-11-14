@@ -4,9 +4,44 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <script src="./scripts/main.js"></script>
+        <title>Capybara VPN Client</title>
+        <script type="text/javascript">
+            function preventBack() {
+                window.history.forward(); 
+            }
+              
+            setTimeout("preventBack()", 0);
+              
+            window.onunload = function () { null };
+        </script>
     </head>
     <body>
-        
+        <header>
+            <div class="nav-bar-container">
+                <div class="nav-bar-logo">
+                    <img src="./assets/logo.png" alt="logo" class="logo">
+                </div>
+                <nav class="nav-bar-list">
+                    <ul>
+                        <li><a href="#">Home</a></li>                            
+                        <li><a href="#">Network</a></li>
+                        <li><a href="#">VPN</a></li>
+                        <li><a href="#">Captive Portal</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="./auth.html">Sign Out</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="main-content-body">
+
+        </div>    
+        <div class="main-footer">
+
+        </div>
     </body>
 </html>
